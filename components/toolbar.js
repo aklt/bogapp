@@ -26,6 +26,9 @@ export default ({title, showMenu, toggleMenu}) => (
       <Link href='/about'>
       <Button flat style={{width: '100%'}} label="About"  />
     </Link>
+    <Link href='/barcode'>
+      <Button flat style={{width: '100%'}} label="Barcode" />
+    </Link>
     </Drawer>
   </div>
 );
