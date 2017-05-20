@@ -44,7 +44,7 @@ export function app(Component) {
               </style>
             </Head>
             <ControlledToolBar title={title} />
-            <Component title={title} />
+            <Component {...this.props} />
           </div>
         </Provider>
       );
